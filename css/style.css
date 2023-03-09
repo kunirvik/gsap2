@@ -1,0 +1,201 @@
+*{
+   
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+:root{
+
+--index: calc(1vw + 1vh);
+	--color-header: #f4efec;
+	--color-text: #cdc6c3;
+	--gallery-gap: calc(var(--index) * 7.5)
+
+}
+
+
+
+@font-face {
+    font-family:'FuturaPTLight';
+    src: url('../fonts/FuturaPT-Light.eot');
+    src: url('../fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPT-Light.woff') format('woff'),
+    url('../fonts/FuturaPT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    }
+    @font-face {
+    font-family:'FuturaPTMedium';
+    src: url('../fonts/FuturaPT-Medium.eot');
+    src: url('../fonts/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPT-Medium.woff') format('woff'),
+    url('../fonts/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500px;
+    font-style: normal;
+    }
+  @font-face {
+    font-family: 'Futura PT Bold';
+    src: url('../fonts/FuturaPT-Bold.eot');
+    src: url('../fonts/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPT-Bold.woff') format('woff'),
+    url('../fonts/FuturaPT-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    }
+  
+
+    .body{
+     
+      background-image: url(../img/location003.jpg) ;
+      background-size: cover;  
+      background-attachment: fixed;
+   background-position: center;
+max-width: 1170px;
+   margin-left: auto;
+   margin-right: auto;
+  
+
+  }
+
+
+.d{
+  padding: 50px;
+position: fixed;
+  z-index: 999;
+  outline: 2px solid tomato;
+  width: calc(var(--index)*20);
+  
+}
+.menu{
+
+}
+.pusto2{
+  height: 100vh;
+  width: 100vw;
+  outline: 2px solid tomato;
+  background-color: rgb(82, 82, 82);
+  
+}
+
+.oblojka{
+box-shadow:5px 5px #ff47c2;
+
+  background-image: url(../img/location003.jpg) ;
+  overflow: hidden;
+  filter: grayscale(100%);
+  background-size: cover;  
+  background-attachment: fixed;
+  height: 500vh;
+
+}
+.wrapper{
+
+
+}
+
+.logoscoot{
+position: absolute;
+width: 100px;
+outline: 2px solid tomato;
+
+}
+.logoscoot2{
+  width: 100px;
+  position: absolute;
+  margin-left: 100px;
+  outline: 2px solid tomato;
+}
+.logoscoot3{
+  width: 100px;
+  position: absolute;
+  margin-left: 300px;
+  outline: 2px solid tomato;
+}
+.logoscoot4{
+  width: 100px;
+  position: absolute;
+  margin-left: 500px;
+  outline: 2px solid tomato;
+
+}
+.logoscoot5{
+  width: 100px;
+  position: absolute;
+  margin-left: 700px;
+  outline: 2px solid tomato;
+}
+.logoscoot6{
+  width: 100px;
+  position: absolute;
+  margin-left: 900px;
+  outline: 2px solid tomato;
+}
+
+
+.zagolovok{
+  position: absolute;
+   font-family:'FuturaPTMedium';
+  font-size: 50px;
+ margin-left: 1100px;
+  color: rgb(251, 255, 0);
+  z-index: 999;
+  text-shadow: rgb(0, 0, 0) 5px 5px;
+  letter-spacing:-5px;
+  
+ 
+}
+.zagolovok1{
+
+}
+
+.video01_02{
+  position: relative;
+  width: 100%;
+  outline: 2px solid tomato;
+  
+}
+.video02_01{
+  width: 100%;
+  outline: 2px solid tomato;
+}
+.video02{
+  position: absolute;
+  width: 300px;
+  outline: 2px solid rgb(255, 238, 0);
+  margin-left:75vw;
+  margin-top: 220vh;
+  z-index: 998;
+}
+
+.video01{
+  position: absolute;
+
+  width: 300px;
+  outline: 2px solid rgb(255, 238, 0);
+ z-index: 998;
+margin-top: 150vh;
+margin-left: 10vw;
+
+}
+.description{
+  position: absolute;
+  font-family:'FuturaPTMedium';
+  font-size: 30px;
+  z-index: 9997;
+  color: #ff47c2;
+  width: 700px;
+  margin-top: 350vh;
+  margin-left: 60vw;
+  line-height: 0.7;
+  letter-spacing: 1px;
+  text-shadow: rgb(0, 0, 0) 2px 2px;
+}
+.description1{
+
+}
+.pusto{
+ 
+}
+.footer{
+  height: 100vh;
+}
