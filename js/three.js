@@ -70,7 +70,7 @@ renderer.setClearColor(0x000000, 0);
  
     renderer.render(scene, camera);
 
-    
+    {
     requestAnimationFrame(render);
 
     ourObj.rotation.y += .02;
