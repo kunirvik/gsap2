@@ -160,10 +160,9 @@ const tl = gsap.timeline({
   scrollTrigger:{
   trigger: ".pusto2",
   start: "top top",
-  end: "500px",
- 
-  
-  scrub: true
+  end: "1000px",
+
+  scrub: true,
   }
   
   
@@ -172,20 +171,16 @@ const tl = gsap.timeline({
 
 });
 
-tl.from(".d",{
-  xPercent: -50,
-  yPercent: -50,
-  x: 50,
-  y: 50,
-  x: innerWidth / 2,
-  y: innerHeight / 2
+tl.from('#c',{
+
+
  
   
 })
 
-  tl.to(".d", {  
-    y: -200,
-    x: -200,
+  tl.to('#c', {  
+    y: -320,
+    x: -820,
   
   scale: 0.35,
  
@@ -271,7 +266,7 @@ scrub: true,
 let tl2 = gsap.timeline({
   scrollTrigger: {
     trigger: ".zagolovok1",
-    start: "0px",
+    start: "-10px",
  end:"4000px",
  pin:  true,
     pinSpacing:false,
@@ -313,12 +308,29 @@ let tl4 = gsap.timeline({
  
   }
 });
+
 tl4.from(".video02", { y:100});
+
+let tl6 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".logotip",
+    start: "-150px",
+ end:"2700px",
+  
+ pin:  true,
+    pinSpacing:false,
+  markers:true,
+ 
+  }
+});
+
+tl6.from(".logotip", { y:100});
+
 
 let tl5 = gsap.timeline({
   scrollTrigger: {
     trigger: ".description",
-    start: "-750px",
+    start: "-200px",
  end:"700px",
 
  pin:  true,
@@ -329,3 +341,17 @@ let tl5 = gsap.timeline({
 });
 tl5.from(".description", {x:1000 });
 
+let tl7 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".scoot",
+    start: "-420px",
+ end:"2700px",
+  
+ pin:  true,
+    pinSpacing:false,
+  markers:true,
+ 
+  }
+});
+
+tl7.from(".scoot", { y:100});

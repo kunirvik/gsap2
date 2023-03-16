@@ -58,14 +58,18 @@ max-width: 1170px;
   }
 
 
-.d{
-  padding: 50px;
+  #c {
+    background: rgba(0, 0, 0, 0);
+ z-index: 999;
+  height: 100vh; 
+display: block;
 position: fixed;
-  z-index: 999;
-  outline: 2px solid tomato;
-  width: calc(var(--index)*20);
-  
-}
+width: 100vw;
+
+    
+ }
+
+
 .menu{
 
 }
@@ -73,12 +77,12 @@ position: fixed;
   height: 100vh;
   width: 100vw;
   outline: 2px solid tomato;
-  background-color: rgb(82, 82, 82);
-  
+  background-color: rgb(27, 27, 27);
+ 
 }
 
 .oblojka{
-box-shadow:5px 5px #ff47c2;
+box-shadow:5px 5px #ffffff;
 
   background-image: url(../img/location003.jpg) ;
   overflow: hidden;
@@ -134,12 +138,13 @@ outline: 2px solid tomato;
 
 .zagolovok{
   position: absolute;
-   font-family:'FuturaPTMedium';
+   font-family:'FuturaPTLight';
   font-size: 50px;
- margin-left: 1100px;
-  color: rgb(251, 255, 0);
+ margin-left: 32vw;
+ margin-top: 50vh;
+  color: rgb(0, 0, 0);
   z-index: 999;
-  text-shadow: rgb(0, 0, 0) 5px 5px;
+ 
   letter-spacing:-5px;
   
  
@@ -161,8 +166,9 @@ outline: 2px solid tomato;
 .video02{
   position: absolute;
   width: 300px;
-  outline: 2px solid rgb(255, 238, 0);
-  margin-left:75vw;
+  
+  outline: 2px solid rgb(0, 0, 0);
+  margin-left:70vw;
   margin-top: 220vh;
   z-index: 998;
 }
@@ -171,24 +177,39 @@ outline: 2px solid tomato;
   position: absolute;
 
   width: 300px;
-  outline: 2px solid rgb(255, 238, 0);
+  outline: 2px solid rgb(3, 3, 3);
  z-index: 998;
 margin-top: 150vh;
-margin-left: 10vw;
+margin-left:15vw;
 
+}
+.scoot{
+  position: absolute;
+  z-index: 999;
+  margin-top: 180vh;
+  margin-left: 15vw;
+  width: 300px;
+}
+.logotip{
+  position: absolute;
+ height: 530px;
+  margin-left:83vw;
+  margin-top: 220vh;
+  z-index: 999;
+  
 }
 .description{
   position: absolute;
-  font-family:'FuturaPTMedium';
+  font-family:'FuturaPTLight';
   font-size: 30px;
-  z-index: 9997;
-  color: #ff47c2;
-  width: 700px;
+  z-index: 997;
+  color: #000000;
+  width: 500px;
   margin-top: 350vh;
-  margin-left: 60vw;
+  margin-left: 40vw;
   line-height: 0.7;
   letter-spacing: 1px;
-  text-shadow: rgb(0, 0, 0) 2px 2px;
+  text-align:center;
 }
 .description1{
 
