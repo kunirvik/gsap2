@@ -141,7 +141,7 @@ outline: 2px solid tomato;
    font-family:'FuturaPTLight';
   font-size: 33px;
  margin-left: 10vw;
- margin-top: 50vh;
+ margin-top: 250vh;
   color: rgb(0, 0, 0);
   z-index: 999;
 
@@ -176,7 +176,7 @@ outline: 2px solid tomato;
   width: 300px;
   outline: 2px solid rgb(3, 3, 3);
  z-index: 998;
-margin-top: 150vh;
+margin-top: 100vh;
 margin-left:42vw;
 }
 
@@ -202,7 +202,7 @@ margin-left:58vw;
 .bmx{
   position: absolute;
   z-index: 999;
-  margin-top: 100vh;
+  margin-top: 150vh;
   margin-left: 15vw;
   width: 200px;
 }
